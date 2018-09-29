@@ -1,0 +1,1 @@
+Reduice.registerPromise(module Js.Promise);

@@ -1,0 +1,1 @@
+let go = (v) => Promise.resolve(v);
