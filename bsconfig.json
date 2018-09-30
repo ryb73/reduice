@@ -1,5 +1,7 @@
 {
     "name" : "reduice",
+    "namespace": true,
+    "bs-dev-dependencies": [ "bs-bluebird" ],
     "sources" : [
         { "dir" : "src" },
         {

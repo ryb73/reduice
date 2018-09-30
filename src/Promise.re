@@ -1,2 +1,2 @@
-module M = (val Reduice.getPromise());
+module M = (val Deps.getPromise());
 include M;
