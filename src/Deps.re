@@ -9,5 +9,5 @@ let registerPromise = (p) =>
 let getPromise = () =>
     switch(promise^) {
         | Some(p) => p
-        | None => (module Js.Promise)
+        | None => (module DefaultPromise)
     };

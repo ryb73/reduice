@@ -1,6 +1,8 @@
 open Promise;
 
-let p = Dependent.go("yes")
+let p = Promise.resolve("yayaa")
+    |> toJs
+    |> fromJs
     |> then_((v) => {
         Js.log2("success?", v);
         resolve();

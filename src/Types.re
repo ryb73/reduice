@@ -18,4 +18,7 @@ module type Promise = {
     let race: array(t('a)) => t('a);
     let then_: ('a => t('b), t('a)) => t('b);
     let catch: (error => t('a), t('a)) => t('a);
+
+    let toJs: t('a) => Js.Promise.t('a);
+    let fromJs: Js.Promise.t('a) => t('a);
   };
