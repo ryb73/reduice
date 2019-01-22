@@ -1,2 +1,2 @@
 # reduice
-Bucklescript Module Dependency Injection
+Bucklescript DI for promises
