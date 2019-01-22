@@ -4,6 +4,7 @@
     "sources": [
         {
             "dir": "src",
+            "public": ["Reduice"]
         },
         {
             "dir": "test",
