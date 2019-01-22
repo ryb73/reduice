@@ -1,9 +1,11 @@
 {
-    "name" : "@ryb73/reduice",
-    "namespace": true,
+    "name": "@ryb73/reduice",
     "bs-dev-dependencies": [ "@ryb73/bs-bluebird" ],
-    "sources" : [
-        { "dir" : "src" },
+    "sources": [
+        {
+            "dir": "src",
+            "public": ["Reduice"],
+        },
         {
             "dir": "test",
             "type": "dev"
