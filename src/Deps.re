@@ -1,4 +1,4 @@
-let promise : ref(option(module Types.Promise)) = ref(None);
+let promise : ref(option(module ReduiceTypes.Promise)) = ref(None);
 
 let registerPromise = (p) =>
     switch (promise^) {
