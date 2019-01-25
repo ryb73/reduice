@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@ryb73/bs-bluebird@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@ryb73/bs-bluebird/-/bs-bluebird-0.0.2.tgz#cea96840d9711794888c3bce0083aee0dc5ac563"
-  integrity sha512-nILqpYSDdOwYPo30T7BEtu4/u8n0h1z2lp4TrfyKBzGhMrBVjq6agPKad9AengiTJp1EOWCDC7ocKMNwmla/rg==
+"@ryb73/bs-bluebird@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@ryb73/bs-bluebird/-/bs-bluebird-0.0.3.tgz#99529711782aade7b8a3863120cec88f6ceaa615"
+  integrity sha512-iTQvHwrSLyZBcqUT2rW3lyUbXfrFb6KUg6dukqaVxfFkn+XJz7wd16MmmUdo0B8BfV0nl5pTfg9wg2QZeT9e1Q==
   dependencies:
     bluebird "^3.5.1"
 

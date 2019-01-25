@@ -19,7 +19,8 @@
     "bucklescript",
     "reason",
     "reasonml",
-    "dependency injection"
+    "dependency injection",
+    "promise"
   ],
   "license": "MIT",
   "author": "Ryan Biwer",
@@ -32,6 +33,6 @@
     "bs-platform": "^4.0.0"
   },
   "dependencies": {
-    "@ryb73/bs-bluebird": "0.0.2"
+    "@ryb73/bs-bluebird": "0.0.3"
   }
 }
